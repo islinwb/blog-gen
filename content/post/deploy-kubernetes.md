@@ -5,7 +5,11 @@ tags = [
     "deploy",
     "kubernetes",
 ]
+<<<<<<< HEAD
 date = "2018-09-19"
+=======
+date = "2019-09-19"
+>>>>>>> add posts
 categories = [
     "kubernetes",
 ]
@@ -14,6 +18,7 @@ menu = "main"
 
 ## local up cluster
 ```shell
+<<<<<<< HEAD
 cd $GOPATH/src/k8s.io/kubernetes
 hack/local-up-cluster.sh
 # success info:
@@ -51,3 +56,8 @@ grep -E "curl.*cfssl" hack/lib/util.sh
 
 ## kubeadm
 ## kops
+=======
+cde $GOPATH/src/k8s.io/kubernetes
+hack/local-up-cluster.sh
+`
+>>>>>>> add posts
