@@ -6,25 +6,25 @@ theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
 # optionally override the site's footer with custom copyright text
-# copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
 #googleAnalytics = "UA-123-45"
 #disqusShortname = "XYW"
 
 [permalinks]
   post = "/:year/:month/:title/"
   page = "/:slug/"
-
+  
 [[menu.sidebar]]
-  name = "Link 1"
-  url = "https://example.com"
+  name = "Hugo docs"
+  url = "https://gohugo.io/documentation/"
 
-[[menu.sidebar]]
-  name = "Link 2"
-  url = "https://example.org"
+#[[menu.sidebar]]
+#  name = "Link 2"
+#  url = "https://example.org"
 
-[[menu.navbar]]
-  name = "Link 1"
-  url = "https://example.org"
+#[[menu.navbar]]
+#  name = "Link 1"
+#  url = "https://example.org"
 
 
 # Theme variables
@@ -34,7 +34,7 @@ paginate = 5
   author = "Weibin Lin"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "A simple Hugo theme based on the Bootstrap v4 blog example."
+  #description = "A simple Hugo theme based on the Bootstrap v4 blog example."
 
   # Show header (default: true)
   #header_visible = true
@@ -59,7 +59,7 @@ paginate = 5
   #cookie_consent_info_url = "http://cookiesandyou.com"
 
   # show sharing icons on pages/posts (default: true)
-  #sharingicons = true
+  sharingicons = false
 
   # Display post summaries instead of content in list templates (default: true)
   #truncate = true
@@ -70,20 +70,20 @@ paginate = 5
 
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+    about = "A simple memo."
 
     # How many posts to show on the sidebar (Default: 5)
-    #num_recent_posts = 2
+    num_recent_posts = 5
 
-  [params.social]
+  #[params.social]
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+  #  twitter = "username"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
-#DefaultContentLanguage = "en"
+DefaultContentLanguage = "en"
 
 # Languages to render
 #[languages.en]
