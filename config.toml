@@ -68,7 +68,7 @@ copyright = "Except where otherwise noted, content on this site is licensed unde
   # Useful if you're using a CDN or other host where you can't control cache headers
   #disable_sri = false
 
-  #[params.sidebar]
+  [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
     about = "A simple memo."
 
