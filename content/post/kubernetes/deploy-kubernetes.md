@@ -50,4 +50,9 @@ grep -E "curl.*cfssl" hack/lib/util.sh
 
 
 ## kubeadm
+```
+# env
+# 2*VM, Ubuntu 16.04 LTS, Ubuntu 16.04.3 LTS
+
+````
 ## kops

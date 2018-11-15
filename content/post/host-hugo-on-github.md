@@ -44,6 +44,9 @@ git remote add origin https://github.com/<USERNAME>/`<YOUR-PROJECT>.git
 rm -rf public
 git submodule add -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git
 
+# make changes to content/
+
 # (re)generate `public/`
+hugo serve
 
 ```
