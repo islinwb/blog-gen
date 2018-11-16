@@ -2,6 +2,7 @@ baseURL = "https://islinwb.github.io/"
 languageCode = "en-us"
 title = "shall see seashore shells"
 theme = "hugo-theme-bootstrap4-blog"
+# theme = "hugo-bootstrap-premium"
 
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
