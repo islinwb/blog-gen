@@ -1,0 +1,4 @@
+baseURL = "islinwb.github.io/"
+languageCode = "en-us"
+title = "Seashore Seashells"
+theme = "whiteplain"
