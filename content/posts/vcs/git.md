@@ -1,7 +1,14 @@
 ---
 title: "Git"
 date: 2019-10-31T15:28:35+08:00
-draft: true
+tags: [
+    "git",
+    "vcs",
+]
+category: [
+    "general",
+]
+draft: false
 ---
 
 ## submodule
